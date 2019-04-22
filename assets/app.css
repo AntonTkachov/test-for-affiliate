@@ -1,0 +1,627 @@
+
+
+body,h1, h2,h3,h4,h5,h6,p,a
+{
+font-family: 'Open Sans', sans-serif;
+
+}
+
+p
+{
+	font-size: 16px;
+  font-weight: 400;
+}
+
+.top_bg
+{
+  background: url('./london.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg1
+{ 
+  background: url('./bg.jpg');
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+  
+}
+
+
+.out-vc {
+  display: table;
+}
+.in-vc {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.in-vc-right {
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.white
+{
+  color: #fff;
+}
+.purpletxt
+{
+  color: #15264C;
+}
+.rown
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.rowl
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.rowm
+{
+  padding-top: 20px;
+}
+
+.center
+{
+  text-align: center;
+}
+
+
+
+
+
+.pattn p
+{
+  font-size: 14px; 
+}
+
+
+
+.hrt3
+{
+  border: 0;
+  height: 1px;
+  width: 35%;
+  margin: 20px auto 3vw auto ;
+  background:  linear-gradient(90deg, #4bbecf , #da1866);
+}
+
+.bg5
+{
+      background: url('./tok.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2vw;
+}
+
+
+.bg3
+{
+    background: url('./roger_hamilton_3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg4
+{
+   background: url('./roger_hamilton_4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.pms2
+{
+  max-width:450px;
+}
+
+
+
+.pan4
+{
+    background: rgba(255,255,255,0.9);
+    border-radius: 50px;
+  padding:2vw 5vw;
+}
+
+.whlico img
+{
+  width:100%;max-width: 100px; 
+}
+
+.whlico p
+{
+  color: ;
+  font-weight: light;
+}
+
+.itl
+{
+  font-style: italic;
+}
+
+.testi_bg
+{
+  background:url('./bg_1.jpg');  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.orgbutton
+{
+  width: 100%;
+  max-width: 210px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background: #F49C1B  ;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+
+.orgbutton2
+{
+width: 95%;
+  /*max-width: 210px;
+  */padding: 10px 30px;
+  border-radius: 50px;
+  background: #f59a16  ;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.orgbutton3
+{
+  width: 100%;
+  max-width: 210px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background: #F49C1B  ;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.orgbutton3:hover,.orgbutton:hover
+{
+  background: #F49C1B  ;
+  
+}
+
+.orgbutton2:hover
+{
+  background: #f59a16  ;
+  
+}
+  .gaur
+{
+  background: #F49C1B;/*  url('./risk_free.jpg');*/
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.abt_roger
+{
+  background: url('./roger.jpg');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+
+
+.btn07 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.btn07 img {
+    position: relative;
+    top: 0;
+    left: 0;
+          -webkit-transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+    transition: all .50s ease-in-out;
+}
+.btn07 .ovrly {
+
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn07 .buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.btn07 .buttons .fa {
+    background: rgba(256, 256, 256, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    position: relative;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    -o-transition: -o-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    color: transparent;
+}
+.btn07:hover .buttons .fa {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    color: rgba(50, 50, 50, 0.9);
+}
+.btn07:hover .ovrly {
+    opacity: 1;
+}
+
+
+.gray
+{
+  background-color: #4E4F54;
+  padding-top:15px;
+  padding-bottom:10px;
+  position: relative;
+    top: -5px;
+    z-index: 1;
+}
+
+.gray .row
+{
+  max-width:75%;
+}
+
+.gray .columns
+{
+  padding-left:0.5rem;
+  padding-right: 0.5rem;
+}
+
+
+.tick_pan
+{
+  border-radius: 25px;
+  background-color: #fff;
+  padding: 15px 30px;
+  max-width: 350px;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(99,94,99,0.4);
+-moz-box-shadow: 0px 0px 10px 1px rgba(99,94,99,0.4);
+box-shadow: 0px 0px 10px 1px rgba(99,94,99,0.4);
+}
+
+.bgi_txt
+{
+  color: #F49C1B;
+}
+
+.p5
+{
+  padding: 5px;
+}
+.sm_ft
+{
+  padding-right: 20px;
+}
+
+
+.footer p
+{
+  font-size: 15px;
+}
+
+.footer a
+{
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.ft_lk 
+{
+
+  color: #fff;
+  border-bottom: 3px solid #89D41A;
+  max-width: 15px;margin: 0px;
+  margin-bottom: 20px;
+}
+
+
+.footer a
+{
+  color: #fff;
+}
+
+.footer a:hover
+{
+  color: #fff;
+  font-weight: bold;
+}
+
+
+#clockdiv{ 
+    font-family: sans-serif; 
+    color: #000; 
+    display: inline-block; 
+    font-weight: 700; 
+    text-align: center; 
+    /*font-size: 30px; */
+} 
+#clockdiv > div{ 
+    padding: 10px 0px 0px 0px; 
+    border-radius: 3px; 
+    background: transparent; 
+    display: inline-block; 
+} 
+#clockdiv h1
+{
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+#clockdiv div > span{ 
+    padding: 0px 0px 15px 0px ; 
+    border-radius: 3px; 
+    background: transparent; 
+    display: inline-block; 
+} 
+.smalltext{ 
+    padding-bottom: 25px; 
+    font-size: 15px; 
+    font-weight: 300; 
+} 
+
+.colsk
+{
+  vertical-align: top;
+
+}
+
+.colsk h2
+{
+  padding: 5px;
+}
+
+.btn111
+{
+	padding: 17px 17px;
+    background: #FF6600  ;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+.rwo .columns
+{
+  padding: 0px;
+}
+.rwo h4
+{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.pan3
+{
+  width: inherit;
+  height: inherit;
+  background: #da1866;
+  padding: 10px 30px;
+}
+.pan2
+{
+  background: rgba(255,255,255,0.8);
+  padding:2vw 5vw;
+
+}
+
+.pan4
+{
+    background: rgba(255,255,255,0.9);
+  padding:2vw 5vw;
+}
+
+.whlico img
+{
+  width:100%;max-width: 100px; 
+}
+
+.whlico p
+{
+  color: ;
+  font-weight: light;
+}
+.blue-bg
+{
+  background-color: #4bb9ca;
+}
+
+
+
+.reveal
+{
+      background: #000;
+    border: #000;
+}
+
+.close-button
+{
+color: #fff;
+}
+.accordion-title{padding:1rem 1rem;border:0px;border-bottom:1px solid #e6e6e6;color:#000;}
+.is-active .accordion-title{padding:1rem 1rem;border:0px;border-bottom:0px;color:#2ba6cb;background-color:transparent;padding-bottom:0px;}
+.accordion-title:hover,.accordion-title:focus{background-color:transparent;}
+.accordion-content li{font-size:18px;}
+.accordion-content{border:0px;padding-left:35px;padding-top:5px;border-bottom:1px solid #e6e6e6;}
+
+.accordion-title p 
+{
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 70em) {
+.whlico p
+{
+  color: ;
+  font-weight: light;
+  padding: 0px 2vw;
+}
+}
+
+@media screen and (min-width: 40em) and (max-width: 75em) {
+  .orgbutton
+  {
+
+  padding: 12px ;
+
+  font-size: 18px;
+  font-weight: bold;
+  }
+
+.pan2 {
+    padding:4vw 5vw;
+}
+  .abt_roger
+{
+  background: none;
+}
+  .abt_roger h4 ,   .abt_roger p
+{
+color: #000 !important;
+}
+ .abt_roger p
+ {
+  text-align: left;
+ }
+  }
+
+
+
+
+@media screen and (max-width: 40em) {
+
+h1
+{
+    font-size: 2.5rem;
+}
+
+h2
+{
+  font-size: 2rem;
+}
+h3
+{
+       font-size: 1.7rem; 
+}
+
+h4
+{
+  font-size: 1.5rem;
+}
+
+.pan4
+{
+    background: rgba(255,255,255,0.9);
+    border-radius: 50px;
+  padding:4vw 7vw;
+}
+
+
+  .pms
+  {
+       max-width: 350px;
+    padding-bottom: 20px;
+  }
+  .pms2
+  {
+    max-width: 300px;
+    padding-bottom: 20px;
+  }
+  .orgbutton
+  {
+
+  padding: 10px 15px;
+
+  font-size: 16px;
+  font-weight: bold;
+  }
+
+
+.pan2 {
+    padding:4vw 5vw;
+}
+
+  .abt_roger
+{
+  background: none;
+}
+  .abt_roger h4 ,   .abt_roger p
+{
+color: #000 !important;
+}
+
+.top_bg .bhu
+{
+  background-color: rgba(255,255,255,0.5);
+}
+
+
+
+.sm_ft
+{
+  padding-bottom: 15px;
+}
+
+
+}
